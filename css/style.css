@@ -1,0 +1,176 @@
+/*=========Common Css Start=========*/
+h1,h2,h3,h4,h5,h6,p,ul,ol,li{
+    margin: 0;
+    }
+    ul,ol,li{
+        list-style-type: none;
+    }
+    a{
+        text-decoration: none;
+    }
+    a,a:hover{
+        text-decoration: none;
+    }
+    /*=========Common Css End=========*/
+    :root{
+        --head-font:'Abril Fatface', cursive;
+        --first-font:'Ubuntu', sans-serif;
+        --second-font:'Open Sans', sans-serif;
+        --first-color:#0f2f44;
+        --second-color:#8484bf;
+        --third-color:#ffc712;
+        --fourth-color: #ffffff;
+    }
+    
+    /*=========Start-bar Css Start=========*/
+    #start-bar{
+        background-color: var(--first-color);
+    color:#fefefe;
+    padding:20px 0 ;
+    font-family: var(--first-font);
+    font-weight:300;
+        
+    }
+    
+    /*=========Start-bar Css End=========*/
+    
+    /*=========Primary-Nav  Section Css Start=========*/
+    #primary-nav #first-menu ul,li,a{
+       color: var(--first-color);
+        font-size: 16px;
+        font-weight: 500;
+        font-family: var(--first-font);
+        padding: 20px 5px;
+        display: inline-block;
+        text-transform: capitalize;
+        transition: .6s;
+        
+    }
+    #primary-nav #first-menu ul li a:hover,
+    #primary-nav #first-menu ul li button:hover{
+        
+        color:var(--third-color);
+        background-color:#fff9e6;
+    }
+    #primary-nav #first-menu ul li button{
+        width:30px;
+        height: 30px;
+        border-radius: 50%;
+        background: none;
+        border:1px solid #dedede;
+        margin: 0 10px;
+    
+    }
+    
+    /*=========Primary-Nav Section Css End=========*/
+    
+    /*=========Banner Section Css Start=========*/
+    
+    #banner{
+        background-image:url(../images/bizzencybanner.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 603;
+        padding: 135px 0;
+    }
+    
+    #banner h2{
+        color:var(--first-color);
+        font-family:var(--first-font) ;
+        font-weight: 500;
+        font-size: 50px;
+    }
+    #banner h1{
+        color:var(--first-color);
+        font-size: 80px;
+        font-family: var(--head-font);
+        text-transform: uppercase;
+    
+    }
+    #banner h3{
+    color:var(--second-color);
+    letter-spacing: 15px;
+    text-transform: capitalize;
+    font-family: var(--second-font);
+    font-weight: 400;
+    font-size: 32px;
+    padding-top: 22px;
+    }
+    #banner p{
+        font-size: 14px;
+        color: #444444;
+        font-family: var(--second-font);
+        margin:32px 0;
+        
+    }
+    #banner a{
+        color:var(--fourth-color);
+        font-size: 20px;
+        font-family: var(--first-font);
+        font-weight: 500;
+        text-transform: capitalize;
+        background-color:var(--second-color);
+        padding: 13px 20px;
+        border-radius: 5px;
+    }
+    #banner button{
+        width:50px;
+        height: 50px;
+        border-radius: 50%;
+        background-color:var(--fourth-color);
+        margin: 0 20px;
+        color: var(--second-color);
+        border:none;
+    }
+    
+    /*=========Banner Section Css End=========*/
+    
+    /*=========About Section Css Start=========*/
+    #About{
+        margin-top: 100px;
+    }
+    #About .About-content h2{
+        font-size: 14px;
+        font-family: var(--first-font);
+        font-weight: 300;
+        color: var(--first-color);
+    }
+    #About .About-content h1{
+        font-size: 32px;
+        font-family: var(--head-font);
+        color: var(--first-color);
+        text-transform: capitalize;
+    }
+    #About .About-content p{
+        font-size: 16px;
+        font-family: var(--second-font);
+        font-weight: 400;
+        color: var(--first-color);
+        padding-top: 28px;
+    }
+    #About.About-content ul li{
+        font-size: 16px;
+        font-family: var(--second-font);
+        font-weight: 400;
+        color: var(--first-color);
+        
+    }
+    #About a{
+        font-size: 20px;
+        font-family: var(--first-font);
+        font-weight: 500;
+        color: var(--first-color);
+        padding: 10px 20px;
+        text-transform: capitalize;
+        background-color: var(--fourth-color);
+        border-radius: 5px;
+        margin:0 19px;
+        
+    }
+     
+    
+    #About a:hover{
+        background-color: var(--third-color);
+    
+    }
+     /*=========About Section Css End=========*/
